@@ -1,0 +1,7 @@
+services:
+  JsonServer:
+    image: rcsnjszg/json-server
+    ports:
+      - "8888:80"
+    volumes:
+      - "./:/server"
