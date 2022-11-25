@@ -1,0 +1,10 @@
+{
+  "posts": [
+    { "id": 1, "title": "Lorem ipsum", "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."},
+    { "id": 2, "title": "Sed et semper lectus", "content": "Nullam non quam et dui pharetra faucibus id vel libero."}
+  ],
+  "comments": [
+    { "id": 1, "text": "baz", "post_id": 1 },
+    { "id": 1, "text": "qux", "post_id": 2 }
+  ]
+}
