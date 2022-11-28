@@ -1,6 +1,339 @@
 {
-  "comments": [
-    { "id": 1, "text": "baz", "post_id": 1 },
-    { "id": 1, "text": "qux", "post_id": 2 }
+  "EdesMezes": [
+    {
+      "name": "Kerámia mézeskalács dísz 9 cm",
+      "images": [
+        "keramia-mezeskalacs-disz-9-cm1.jpg",
+        "keramia-mezeskalacs-disz-9-cm2.jpg"
+      ],
+      "price": "1650",
+      "description": [
+        "Polirezin, fényes lakkozott, függeszthető, mézeskalács mintájú dísz 2 különböző színben és modellben.",
+        "Anyag: polirezin",
+        "Méret: 9 x 9 x 1 cm"
+      ],
+      "attribute": {
+        "category": [
+          "Konyhai díszek",
+          "Mézeskalács és süti birodalom"
+        ],
+        "color": [
+          "white",
+          "brown"
+        ],
+        "modell" : [
+          "Fenyőfás",
+          "Mézeskalács",
+          "Fehér csíkos"
+        ]
+      }
+    },
+    {
+      "name": "Műanyag sétapálca nyalóka",
+      "images": [
+        "muanyag-setapalca-nyaloka.jpg"
+      ],
+      "price": "690",
+      "description": [
+        "Műanyag sétapálca nyalóka dekoráláshoz.",
+        "Anyag: műanyag",
+        "Méret: 1.5 x 12 x 33.5 cm",
+        "Szín: piros-fehér"
+      ],
+      "attribute": {
+        "category": [
+          "Konyhai díszek",
+          "Mézeskalács és süti birodalom"
+        ],
+        "color" : [
+          "white",
+          "red"
+        ],
+        "modell" : [
+          "Nyalóka",
+          "Fehér csíkos"
+        ]
+
+      }
+    },
+    {
+      "name": "Sétapálca nyalóka dísz 14 cm",
+      "images": [
+        "setapalca-nyaloka-disz-14-cm1.jpg",
+        "setapalca-nyaloka-disz-14-cm2.jpg",
+        "setapalca-nyaloka-disz-14-cm3.jpg"
+      ],
+      "price": "1650",
+      "description": [
+        "Műanyag, függeszthető sétapálca nyalóka dísz, 2 különböző színben.",
+        "Anyag: műanyag",
+        "Méret: 2 x 7.5 x 14 cm"
+      ],
+      "attribute": {
+        "category": [
+          "Konyhai díszek",
+          "Mézeskalács és süti birodalom"
+        ],
+        "color" : [
+          "white",
+          "red"
+        ],
+        "modell" : [
+          "Nyalóka",
+          "Fehér csíkos"
+        ]
+      }
+    }
+  ],
+  "KaracsonyiUtazas" :[
+    {
+      "name": "Csepp üvegdísz piros",
+      "images": [
+        "csepp-uevegdisz-piros1.jpg",
+        "csepp-uevegdisz-piros2.jpg"
+      ],
+      "price": "2390",
+      "description": [
+        "Üveg csepp alakú díszek 12 darabos szettben matt és fényes felülettel.",
+        "Anyag: Üveg",
+        "Méret: 2.7 x 2.7 x 7.5 cm"
+      ],
+      "attribute": {
+        "category": [
+          "Díszek"
+        ],
+        "color" : [
+          "red"
+        ]
+      }
+    },
+    {
+      "name": "",
+      "images": [
+        "",
+        "",
+        ""
+      ],
+      "price": "",
+      "description": [
+        "",
+        "",
+        ""
+      ],
+      "attribute": {
+        "category": [
+          "",
+          ""
+        ],
+        "color" : [
+          "",
+          ""
+        ],
+        "modell" : [
+          "",
+          ""
+        ]
+      }
+    },
+    {
+      "name": "",
+      "images": [
+        "",
+        "",
+        ""
+      ],
+      "price": "",
+      "description": [
+        "",
+        "",
+        ""
+      ],
+      "attribute": {
+        "category": [
+          "",
+          ""
+        ],
+        "color" : [
+          "",
+          ""
+        ],
+        "modell" : [
+          "",
+          ""
+        ]
+      }
+    }
+  ],
+  "KlasszikusUnnep" :[
+    {
+      "name": "",
+      "images": [
+        "",
+        "",
+        ""
+      ],
+      "price": "",
+      "description": [
+        "",
+        "",
+        ""
+      ],
+      "attribute": {
+        "category": [
+          "",
+          ""
+        ],
+        "color" : [
+          "",
+          ""
+        ],
+        "modell" : [
+          "",
+          ""
+        ]
+      }
+    },
+    {
+      "name": "",
+      "images": [
+        "",
+        "",
+        ""
+      ],
+      "price": "",
+      "description": [
+        "",
+        "",
+        ""
+      ],
+      "attribute": {
+        "category": [
+          "",
+          ""
+        ],
+        "color" : [
+          "",
+          ""
+        ],
+        "modell" : [
+          "",
+          ""
+        ]
+      }
+    },
+    {
+      "name": "",
+      "images": [
+        "",
+        "",
+        ""
+      ],
+      "price": "",
+      "description": [
+        "",
+        "",
+        ""
+      ],
+      "attribute": {
+        "category": [
+          "",
+          ""
+        ],
+        "color" : [
+          "",
+          ""
+        ],
+        "modell" : [
+          "",
+          ""
+        ]
+      }
+    }
+  ],
+  "FagyosCsillogas" :[
+    {
+      "name": "",
+      "images": [
+        "",
+        "",
+        ""
+      ],
+      "price": "",
+      "description": [
+        "",
+        "",
+        ""
+      ],
+      "attribute": {
+        "category": [
+          "",
+          ""
+        ],
+        "color" : [
+          "",
+          ""
+        ],
+        "modell" : [
+          "",
+          ""
+        ]
+      }
+    },
+    {
+      "name": "",
+      "images": [
+        "",
+        "",
+        ""
+      ],
+      "price": "",
+      "description": [
+        "",
+        "",
+        ""
+      ],
+      "attribute": {
+        "category": [
+          "",
+          ""
+        ],
+        "color" : [
+          "",
+          ""
+        ],
+        "modell" : [
+          "",
+          ""
+        ]
+      }
+    },
+    {
+      "name": "",
+      "images": [
+        "",
+        "",
+        ""
+      ],
+      "price": "",
+      "description": [
+        "",
+        "",
+        ""
+      ],
+      "attribute": {
+        "category": [
+          "",
+          ""
+        ],
+        "color" : [
+          "",
+          ""
+        ],
+        "modell" : [
+          "",
+          ""
+        ]
+      }
+    }
   ]
 }
