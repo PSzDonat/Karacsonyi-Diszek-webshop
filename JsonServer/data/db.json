@@ -18,8 +18,8 @@
           "Mézeskalács és süti birodalom"
         ],
         "color": [
-          "white",
-          "brown"
+          "Fehér",
+          "Barna"
         ],
         "modell" : [
           "Fenyőfás",
@@ -46,8 +46,8 @@
           "Mézeskalács és süti birodalom"
         ],
         "color" : [
-          "white",
-          "red"
+          "Fehér",
+          "Piros"
         ],
         "modell" : [
           "Nyalóka",
@@ -75,8 +75,8 @@
           "Mézeskalács és süti birodalom"
         ],
         "color" : [
-          "white",
-          "red"
+          "Fehér",
+          "Piros"
         ],
         "modell" : [
           "Nyalóka",
@@ -103,235 +103,213 @@
           "Díszek"
         ],
         "color" : [
-          "red"
+          "Piros"
         ]
       }
     },
     {
-      "name": "",
+      "name": "Nyitható üveggömb 6 cm",
       "images": [
-        "",
-        "",
-        ""
+        "nyithato-ueveggoemb-6-cm1.jpg",
+        "nyithato-ueveggoemb-6-cm2.jpg",
+        "nyithato-ueveggoemb-6-cm3.jpg"
       ],
-      "price": "",
+      "price": "2690",
       "description": [
-        "",
-        "",
-        ""
+        "Függeszthető, szétnyitható üveggömb 2 különböző magyal mintával.",
+        "Anyag: üveg",
+        "Átmérő: 6 cm"
       ],
       "attribute": {
         "category": [
-          "",
-          ""
+          "Díszek"
         ],
         "color" : [
-          "",
-          ""
-        ],
-        "modell" : [
-          "",
-          ""
+          "Piros",
+          "Zöld",
+          "Ezüst",
+          "Fehér"
         ]
       }
     },
     {
-      "name": "",
+      "name": "Műanyag sétapálca nyalóka",
       "images": [
-        "",
-        "",
-        ""
+        "muanyag-setapalca-nyaloka1.jpg"
       ],
-      "price": "",
+      "price": "690",
       "description": [
-        "",
-        "",
-        ""
+        "Műanyag sétapálca nyalóka dekoráláshoz.",
+        "Anyag: műanyag",
+        "Méret: 1.5 x 12 x 33.5 cm",
+        "Szín: piros-fehér"
       ],
       "attribute": {
         "category": [
-          "",
-          ""
+          "Díszek"
         ],
         "color" : [
-          "",
-          ""
-        ],
-        "modell" : [
-          "",
-          ""
+          "Fehér",
+          "Piros"
         ]
       }
     }
   ],
   "KlasszikusUnnep" :[
     {
-      "name": "",
+      "name": "Kolibri dísz műanyag",
       "images": [
-        "",
-        "",
-        ""
+        "kolibri-disz-muanyag1.jpg",
+        "kolibri-disz-muanyag2.jpg",
+        "kolibri-disz-muanyag3.jpg"
       ],
-      "price": "",
+      "price": "1290",
       "description": [
-        "",
-        "",
-        ""
+        "Műanyag, átlátszó kolibri figura arany szárnyakkal, 2 különböző modellben.",
+        "Anyag: műanyag",
+        "Méret: 10.5 x 14 x 5 cm"
       ],
       "attribute": {
         "category": [
-          "",
-          ""
+          "Díszek"
         ],
         "color" : [
-          "",
-          ""
-        ],
-        "modell" : [
-          "",
-          ""
+          "Arany",
+          "Fehér",
+          "Ezüst"
         ]
       }
     },
     {
-      "name": "",
+      "name": "Fém csengettyű 10 cm",
       "images": [
-        "",
-        "",
-        ""
+        "fem-csengettyu-10-cm1.jpg",
+        "fem-csengettyu-10-cm2.jpg",
+        "fem-csengettyu-10-cm3.jpg",
+        "fem-csengettyu-10-cm4.jpg"
       ],
-      "price": "",
+      "price": "1350",
       "description": [
-        "",
-        "",
-        ""
+        "Angyali hangú fém csengettyű 3 különböző modellben.",
+        "Anyag: alumínium",
+        "Méret: 6 x 6 x 10 cm"
       ],
       "attribute": {
         "category": [
-          "",
-          ""
+          "Díszek"
         ],
         "color" : [
-          "",
-          ""
-        ],
-        "modell" : [
-          "",
-          ""
+          "Ezüst"
         ]
       }
     },
     {
-      "name": "",
+      "name": "Dísz műanyag antik arany",
       "images": [
-        "",
-        "",
-        ""
+        "disz-muanyag-antik-arany1.jpg",
+        "disz-muanyag-antik-arany2.jpg",
+        "disz-muanyag-antik-arany3.jpg",
+        "disz-muanyag-antik-arany4.jpg"
       ],
-      "price": "",
+      "price": "1490",
       "description": [
-        "",
-        "",
-        ""
+        "Műanyag, függeszthető dísz antik arany színben, 3 különböző modellben.",
+        "Anyag: műanyag",
+        "Felület: antik, fényes",
+        "Méret: 12 x 4.5 x 8 cm"
       ],
       "attribute": {
         "category": [
-          "",
-          ""
+          "Díszek"
         ],
         "color" : [
-          "",
-          ""
+          "Ezüst",
+          "Arany",
+          "Fehér"
         ],
         "modell" : [
-          "",
-          ""
+          "Vonat",
+          "Nyalóka",
+          "Autó"
         ]
       }
     }
   ],
   "FagyosCsillogas" :[
     {
-      "name": "",
+      "name": "Hóember dísz sállal",
       "images": [
-        "",
-        "",
-        ""
+        "hoember-disz-sallal1.jpg",
+        "hoember-disz-sallal2.jpg",
+        "hoember-disz-sallal3.jpg"
       ],
-      "price": "",
+      "price": "1750",
       "description": [
-        "",
-        "",
-        ""
+        "Műanyag, flokkolt felületű, függeszthető hóember dísz, 2 vidám modellben.",
+        "Anyag: műanyag",
+        "Méret: 14 x 6.5 x 12 cm"
       ],
       "attribute": {
         "category": [
-          "",
-          ""
+          "Díszek",
+          "Figurák"
         ],
         "color" : [
-          "",
-          ""
+          "Fehér"
         ],
         "modell" : [
-          "",
-          ""
+          "Narancssárgasál",
+          "Kéksál"
         ]
       }
     },
     {
-      "name": "",
+      "name": "Műanyag jégcsap szett 2 darabos",
       "images": [
         "",
         "",
         ""
       ],
-      "price": "",
+      "price": "680",
       "description": [
-        "",
-        "",
-        ""
+        "Műanyag függeszthető, átlátszó és kék glitteres jégcsap szett  amely 2 darab jégcsapot tartalmaz.",
+        "Anyag: műanyag",
+        "Méret: 13 cm",
+        "Szín: átlátszó"
       ],
       "attribute": {
         "category": [
-          "",
-          ""
+          "Díszek"
         ],
         "color" : [
-          "",
-          ""
-        ],
-        "modell" : [
-          "",
-          ""
+          "Kék",
+          "Fehér"
         ]
       }
     },
     {
-      "name": "",
+      "name": "Üvegdísz fagyos gyöngyökkel 8 cm",
       "images": [
-        "",
-        "",
-        ""
+        "uevegdisz-fagyos-gyoengyoekkel-8-cm1.jpg",
+        "uevegdisz-fagyos-gyoengyoekkel-8-cm2.jpg",
+        "uevegdisz-fagyos-gyoengyoekkel-8-cm3.jpg",
+        "uevegdisz-fagyos-gyoengyoekkel-8-cm4.jpg"
       ],
-      "price": "",
+      "price": "1490",
       "description": [
-        "",
-        "",
-        ""
+        "Üveg, függeszthető dísz, gyöngyös szórással 2 különböző formában és színben.",
+        "Anyag: üveg",
+        "Gömb átmérő: 8 cm",
+        "Hosszúkás dísz mérete: 6 x 12 cm"
       ],
       "attribute": {
         "category": [
-          "",
-          ""
+          "Díszek"
         ],
         "color" : [
-          "",
-          ""
-        ],
-        "modell" : [
-          "",
-          ""
+          "Ezüst",
+          "Fehér",
+          "Szürke"
         ]
       }
     }
