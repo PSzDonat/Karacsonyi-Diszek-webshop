@@ -1,6 +1,14 @@
 {
-  "EdesMezes": [
+  "Categories" : [
+    {"id": 1,"name": "EdesMezes"},
+    {"id": 2,"name": "KaracsonyiUtazas"},
+    {"id": 3,"name": "KlasszikusUnnep"},
+    {"id": 4,"name": "FagyosCsillogas"}
+  ],
+  "Datas": [
     {
+      "id": 1,
+      "category" : "EdesMezes",
       "name": "Kerámia mézeskalács dísz 9 cm",
       "images": [
         "keramia-mezeskalacs-disz-9-cm1.jpg",
@@ -29,6 +37,8 @@
       }
     },
     {
+      "id": 2,
+      "category" : "EdesMezes",
       "name": "Műanyag sétapálca nyalóka",
       "images": [
         "muanyag-setapalca-nyaloka.jpg"
@@ -57,6 +67,8 @@
       }
     },
     {
+      "id": 3,
+      "category" : "EdesMezes",
       "name": "Sétapálca nyalóka dísz 14 cm",
       "images": [
         "setapalca-nyaloka-disz-14-cm1.jpg",
@@ -83,10 +95,10 @@
           "Fehér csíkos"
         ]
       }
-    }
-  ],
-  "KaracsonyiUtazas" :[
+    },
     {
+      "id": 4,
+      "category" : "KaracsonyiUtazas",
       "name": "Csepp üvegdísz piros",
       "images": [
         "csepp-uevegdisz-piros1.jpg",
@@ -108,6 +120,8 @@
       }
     },
     {
+      "id": 5,
+      "category" : "KaracsonyiUtazas",
       "name": "Nyitható üveggömb 6 cm",
       "images": [
         "nyithato-ueveggoemb-6-cm1.jpg",
@@ -133,6 +147,8 @@
       }
     },
     {
+      "id": 6,
+      "category" : "KaracsonyiUtazas",
       "name": "Műanyag sétapálca nyalóka",
       "images": [
         "muanyag-setapalca-nyaloka1.jpg"
@@ -153,10 +169,10 @@
           "Piros"
         ]
       }
-    }
-  ],
-  "KlasszikusUnnep" :[
+    },
     {
+      "id": 7,
+      "category" : "KlasszikusUnnep",
       "name": "Kolibri dísz műanyag",
       "images": [
         "kolibri-disz-muanyag1.jpg",
@@ -181,6 +197,8 @@
       }
     },
     {
+      "id": 8,
+      "category" : "KlasszikusUnnep",
       "name": "Fém csengettyű 10 cm",
       "images": [
         "fem-csengettyu-10-cm1.jpg",
@@ -204,6 +222,8 @@
       }
     },
     {
+      "id": 9,
+      "category" : "KlasszikusUnnep",
       "name": "Dísz műanyag antik arany",
       "images": [
         "disz-muanyag-antik-arany1.jpg",
@@ -233,10 +253,10 @@
           "Autó"
         ]
       }
-    }
-  ],
-  "FagyosCsillogas" :[
+    },
     {
+      "id": 10,
+      "category" : "FagyosCsillogas",
       "name": "Hóember dísz sállal",
       "images": [
         "hoember-disz-sallal1.jpg",
@@ -264,6 +284,8 @@
       }
     },
     {
+      "id": 11,
+      "category" : "FagyosCsillogas",
       "name": "Műanyag jégcsap szett 2 darabos",
       "images": [
         "",
@@ -288,6 +310,8 @@
       }
     },
     {
+      "id": 12,
+      "category" : "FagyosCsillogas",
       "name": "Üvegdísz fagyos gyöngyökkel 8 cm",
       "images": [
         "uevegdisz-fagyos-gyoengyoekkel-8-cm1.jpg",
