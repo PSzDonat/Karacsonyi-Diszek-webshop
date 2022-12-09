@@ -2,9 +2,9 @@
 width: 3.5rem;
 height: auto;
 }
-.btn{
-    padding: 0.5rem;
-}
 .dropdown{
     list-style: none;
+}
+#kategoriak-btn{
+    border-left: 5rem;
 }
