@@ -2,9 +2,16 @@
 width: 3.5rem;
 height: auto;
 }
-.dropdown{
-    list-style: none;
-}
 #kategoriak-btn{
-    border-left: 5rem;
+    margin-left: 1rem;
+}
+#kategoriak-icon{
+    margin-right: 0.5rem;
+}
+#nav-top{
+    background-color: #D5AD56;
+}
+#nav-buttom{
+    background-color: #F7E19E;
+    margin-bottom: 3rem;
 }
