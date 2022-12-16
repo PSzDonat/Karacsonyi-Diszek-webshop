@@ -4,9 +4,9 @@ async function getFetch(name) {
 }
 function createCard(id,category,images,h5,price) {
     const col = document.createElement('div');
-    col.classList.add('col-xl-2','col-md-4','col-sm-6');
+    col.classList.add('col-xl-3','col-md-4','col-sm-6');
     const a = document.createElement('a');
-    a.href = `./Termek.js?id=`+id;
+    a.href = `./Termek.html?id=`+id;
     const card = document.createElement('card');
     card.classList.add('card');
     const img = document.createElement('img');
@@ -29,8 +29,8 @@ function createCard(id,category,images,h5,price) {
     col.append(a);
     return col;
 }
-let datas = [];
 async function showCards() {
+    let datas = [];
     await getFetch('Datas').then(x=>x.json()).then(x=>datas=x);
     for (const item of datas) {
         let row = document.querySelector(".container>.row");
@@ -39,5 +39,5 @@ async function showCards() {
         ));
     }
 }
-
+showCards();
 
