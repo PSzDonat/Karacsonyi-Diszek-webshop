@@ -334,6 +334,32 @@
           "Szürke"
         ]
       }
+    },
+    {
+      "id": 13,
+      "category" : "FagyosCsillogas",
+      "name": "Üveg toboz szett 2 db",
+      "images": [
+        "ueveg-toboz-szett-2-db1.jpg"
+      ],
+      "price": "1290",
+      "description": [
+        "Üveg, függeszthető, toboz alakú dísz 3 különböző színben, 2 darabos kiszerelésben.",
+        "Anyag: üveg",
+        "Méret: 6 x 12.5 cm",
+        "Felület: fényes/szórt"
+      ],
+      "attribute": {
+        "category": [
+          "Díszek"
+        ],
+        "color" : [
+          "Ezüst",
+          "Fehér",
+          "Szürke",
+          "Kék"
+        ]
+      }
     }
   ]
 }
