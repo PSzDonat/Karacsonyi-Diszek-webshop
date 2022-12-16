@@ -4,6 +4,7 @@ height: auto;
 }
 #kategoriak-btn{
     margin-left: 1rem;
+    margin-right: 1.5rem;
 }
 #kategoriak-icon{
     margin-right: 0.5rem;
@@ -14,4 +15,19 @@ height: auto;
 #nav-buttom{
     background-color: #F7E19E;
     margin-bottom: 3rem;
+}
+#search-icon{
+    font-size: 22px;
+    margin-right: 5px;
+    margin-top: 5px;
+    color: rgb(0, 114, 0);
+}
+#nav-search{
+    border-radius: 20px 0px 0px 20px;
+    width: ;
+}
+#nav-search-button{
+    background-color: #ffb84e;
+    border-radius: 0px 20px 20px 0px;
+    margin-right: 1rem;
 }
