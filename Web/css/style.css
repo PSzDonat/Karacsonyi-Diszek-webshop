@@ -22,9 +22,16 @@ height: auto;
     margin-top: 5px;
     color: rgb(0, 114, 0);
 }
+#kosar-icon{
+    font-size: 40px;
+    margin-right: 0.5rem;
+}
+#felhasznalo-icon{
+    font-size: 40px;
+    margin-right: 1rem;
+}
 #nav-search{
     border-radius: 20px 0px 0px 20px;
-    width: ;
 }
 #nav-search-button{
     background-color: #ffb84e;
