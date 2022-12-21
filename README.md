@@ -5,3 +5,10 @@
 
 Open `localhost:80` and navigate to: `Web/html`
 
+Készitette:
+
+Gáspár Róbert 
+
+Palánki-Szűcs Donát
+
+Szarvas Marton
