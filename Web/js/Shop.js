@@ -1,4 +1,4 @@
-let json_server = "http://192.168.1.83:8888/";
+let json_server = "http://localhost:8888/";
 async function getFetch(name) {
     return await fetch(json_server+name);
 }

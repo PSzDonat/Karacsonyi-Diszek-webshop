@@ -1,0 +1,14 @@
+services:
+  JsonServer:
+    image: rcsnjszg/json-server
+    ports:
+      - "8888:80"
+    volumes:
+      - "./JsonServer:/server"
+  Nginx:
+    image: nginx
+    ports:
+      - "80:80"
+    volumes:
+      - ./Web:/usr/share/nginx/html/Web
+      - ./conf.d:/etc/nginx/conf.d
