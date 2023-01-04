@@ -2,7 +2,7 @@ let json_server = "http://localhost:8888/";
 async function getFetch(name) {
     return await fetch(json_server+name);
 }
-function createCard(id,category,images,h5,price) {
+function createCard(id,category,image,h5,price) {
     const col = document.createElement('div');
     col.classList.add('col-xl-3','col-md-4','col-sm-6','mb-4');
     const a = document.createElement('a');
@@ -10,7 +10,7 @@ function createCard(id,category,images,h5,price) {
     const card = document.createElement('card');
     card.classList.add('card','h-100');
     const img = document.createElement('img');
-    img.src = '../Img/'+category+'/'+images
+    img.src = image;
     const card_body = document.createElement('card-body');
     card_body.classList.add('card-body');
     const card_title = document.createElement('h5');
