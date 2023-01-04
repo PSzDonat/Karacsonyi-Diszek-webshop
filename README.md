@@ -5,6 +5,8 @@
 
 Open `localhost:80` and navigate to: `Web/html`
 
+> :warning: **Ha windows -t használsz akkor lehet hogy pár funkció nem fog müködni !**
+
 Készitette:
 
 Gáspár Róbert 
