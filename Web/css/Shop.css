@@ -1,4 +1,5 @@
-a,a:hover {
-    text-decoration: none;
-    color: black;
+a,
+a:hover {
+  text-decoration: none;
+  color: black;
 }

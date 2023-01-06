@@ -1,40 +1,40 @@
-.logo{
-width: 3.5rem;
-height: auto;
+.logo {
+  width: 3.5rem;
+  height: auto;
 }
-#kategoriak-btn{
-    margin-left: 1rem;
-    margin-right: 1.5rem;
+#kategoriak-btn {
+  margin-left: 1rem;
+  margin-right: 1.5rem;
 }
-#kategoriak-icon{
-    margin-right: 0.5rem;
+#kategoriak-icon {
+  margin-right: 0.5rem;
 }
-#nav-top{
-    background-color: #D5AD56;
+#nav-top {
+  background-color: #d5ad56;
 }
-#nav-buttom{
-    background-color: #F7E19E;
-    margin-bottom: 3rem;
+#nav-buttom {
+  background-color: #f7e19e;
+  margin-bottom: 3rem;
 }
-#search-icon{
-    font-size: 22px;
-    margin-right: 5px;
-    margin-top: 5px;
-    color: rgb(0, 114, 0);
+#search-icon {
+  font-size: 22px;
+  margin-right: 5px;
+  margin-top: 5px;
+  color: rgb(0, 114, 0);
 }
-#kosar-icon{
-    font-size: 40px;
-    margin-right: 0.5rem;
+#kosar-icon {
+  font-size: 40px;
+  margin-right: 0.5rem;
 }
-#felhasznalo-icon{
-    font-size: 40px;
-    margin-right: 1rem;
+#felhasznalo-icon {
+  font-size: 40px;
+  margin-right: 1rem;
 }
-#nav-search{
-    border-radius: 20px 0px 0px 20px;
+#nav-search {
+  border-radius: 20px 0px 0px 20px;
 }
-#nav-search-button{
-    background-color: #ffb84e;
-    border-radius: 0px 20px 20px 0px;
-    margin-right: 1rem;
+#nav-search-button {
+  background-color: #ffb84e;
+  border-radius: 0px 20px 20px 0px;
+  margin-right: 1rem;
 }
