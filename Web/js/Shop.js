@@ -1,7 +1,10 @@
+//GLOBAL VARIABLES
 let json_server = "http://localhost:8888/";
-async function getFetch(name) {
-  return await fetch(json_server + name);
-}
+let datas = [];
+const size = 12; //<- how many items/page
+const params = new URLSearchParams(location.search);
+const currentPage = params.has("page") ? params.get("page") : 1;
+//End
 function createCard(id, category, image, h5, price) {
   const col = document.createElement("div");
   col.classList.add("col-xl-3", "col-md-4", "col-sm-6", "mb-4");
@@ -37,20 +40,11 @@ async function showCards(datas) {
     );
   }
 }
-makeNavigation(12);
-async function makeNavigation(size) {
-  const params = new URLSearchParams(location.search);
-  let datas = [];
-  await getFetch("Datas")
-    .then((x) => x.json())
-    .then((x) => (datas = x));
-  const currentPage = params.has("page") ? params.get("page") : 1;
+async function makeNavigation() {
   const calcPageSize = Math.ceil(datas.length / size);
   const calcA = Math.max(currentPage - 1, 1);
   const calcB = Math.min(currentPage - -1, calcPageSize);
-
   const navig = document.querySelector(".navig");
-
   const previous = document.createElement("li");
   previous.classList.add("page-item");
   if (currentPage == 1) previous.classList.add("disabled");
@@ -79,5 +73,29 @@ async function makeNavigation(size) {
   nextA.href = "Shop.html?page=" + (currentPage - -1);
   next.append(nextA);
   navig.append(next);
+}
+async function showError(url) {
+  const err = document.querySelector("div#error");
+  const myerror = document.createElement("div");
+  myerror.textContent = `A szervert nem találtuk ${
+    json_server + url
+  } webhelyen!`;
+  myerror.classList.add("alert", "alert-danger");
+  myerror.role = "alert";
+  err.prepend(myerror);
+}
+async function makeWeb() {
+  try {
+    await fetch(json_server + "Datas")
+      .then((x) => x.json())
+      .then((x) => (datas = x));
+  } catch (err) {
+    showError("Datas");
+    document.querySelector("h1").textContent = "";
+    return;
+  }
+  makeNavigation();
   showCards(datas.slice((currentPage - 1) * size, currentPage * size));
 }
+//func end
+makeWeb();
