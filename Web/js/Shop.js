@@ -35,7 +35,7 @@ function createCard(id, category, image, h5, price) {
 async function showCards(datas) {
   for (const item of datas) {
     let row = document.querySelector(".container>.row");
-    row.append(
+    row.prepend(
       createCard(item.id, item.category, item.images[0], item.name, item.price)
     );
   }
