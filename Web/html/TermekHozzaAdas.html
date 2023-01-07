@@ -89,19 +89,44 @@
     <!--MY code-->
     <div class="container">
       <div class="row">
-        <label for="select">Category:</label>
-        <select class="form-select" id="select" aria-label="Default select example">
-        </select>
         
-        <label for="text">Name:</label>
-        <input class="form-control" type="text" id="text" placeholder="Item name here.">
+        <div>
+          <label for="select">Category:</label>
+          <select class="form-select" id="select" aria-label="Default select example">
+          </select>
+        </div>
+        
+        <div>
+          <label for="text">Name:</label>
+          <input class="form-control" type="text" id="text" placeholder="Item name here.">
+        </div>
 
         <div>
           <label for="formFileMultiple" class="form-label">Upload Files:</label>
           <input class="form-control" type="file" accept="image/png, image/jpeg" id="formFileMultiple" multiple>
         </div>
 
+        <label for="money">Money:</label>
+        <div class="input-group ">
+          <input id="money" type="text" class="form-control" placeholder="1000" style="text-align:right;">
+          <span class="input-group-text">Ft</span>
+        </div>
 
+        <label>Description:</label>
+        <div class="description-group">
+          
+        </div>
+        
+        <div>
+          <a onclick="AddDescription()" class="btn btn-primary form-control">Add Description</a>
+        </div>
+
+        <template class="description-template">
+          <div class="input-group">
+            <input id="description" type="text" class="form-control" placeholder="Text here.">
+            <a onclick="DeleteDescription()" class="btn btn-outline-secondary">Delete</a>
+          </div>
+        </template>
       </div>
     </div>
 

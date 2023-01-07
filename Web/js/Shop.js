@@ -10,12 +10,12 @@ function createCard(id, category, image, h5, price) {
   col.classList.add("col-xl-3", "col-md-4", "col-sm-6", "mb-4");
   const a = document.createElement("a");
   a.href = `./Termek.html?id=` + id;
-  const card = document.createElement("card");
+  const card = document.createElement("div");
   card.classList.add("card", "h-100");
   const img = document.createElement("img");
   img.src = image;
-  const card_body = document.createElement("card-body");
-  card_body.classList.add("card-body");
+  const card_body = document.createElement("div");
+  card_body.classList.add("card-body","d-flex","flex-column","justify-content-between");
   const card_title = document.createElement("h5");
   card_title.classList.add("card-title");
   card_title.textContent = h5;
