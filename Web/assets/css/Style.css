@@ -19,7 +19,11 @@
   background-color: #a87914;
 }
 .dropdown-menu>li>a:hover{
-  background-color: #d5ad56;
+  background-color: #e9c26d;
+}
+.dropdown-menu>li>a:active{
+  background-color: #ffb84e;
+  color:gainsboro;
 }
 .dropdown-menu>li>a{
   margin: 0;
