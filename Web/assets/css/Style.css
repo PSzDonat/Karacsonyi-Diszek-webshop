@@ -15,11 +15,14 @@
 #btn-kategoria:hover{
   background-color: #d5ad56;
 }
-#btn-kategoria:visited{
+#btn-kategoria:active{
+  background-color: #a87914;
+}
+.dropdown-menu>li>a:hover{
   background-color: #d5ad56;
 }
-#dropdown-item:hover{
-  background-color: #d5ad56;
+.dropdown-menu>li>a{
+  margin: 0;
 }
 #nav-top {
   background-color: #d5ad56;
@@ -30,7 +33,7 @@
   margin-bottom: 3rem;
   z-index: 1;
 }
-nav a{
+.btn-group a{
   text-decoration: none;
   margin: 0.3rem;
 }
