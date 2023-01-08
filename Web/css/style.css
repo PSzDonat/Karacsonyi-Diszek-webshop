@@ -1,5 +1,5 @@
 .logo {
-  width: 3.5rem;
+  width: 3rem;
   height: auto;
 }
 #kategoriak-btn {
@@ -23,11 +23,11 @@
   color: rgb(0, 114, 0);
 }
 #kosar-icon {
-  font-size: 40px;
+  font-size: 30px;
   margin-right: 0.5rem;
 }
 #felhasznalo-icon {
-  font-size: 40px;
+  font-size: 25px;
   margin-right: 1rem;
 }
 #nav-search {
