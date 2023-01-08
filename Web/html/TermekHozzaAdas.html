@@ -118,15 +118,69 @@
         </div>
         
         <div>
-          <a onclick="AddDescription()" class="btn btn-primary form-control">Add Description</a>
+          <a onclick="AddForm('.description-group','.description-template')" class="btn btn-primary form-control">Add Description</a>
+        </div>
+
+        <p class="mt-2 mb-1">Attributes:</p>
+        <label>Category:</label>
+        <div class="category-group">
+          
+        </div>
+        
+        <div>
+          <a onclick="AddForm('.category-group','.category-template')" class="btn btn-primary form-control">Add Category</a>
+        </div>
+
+        <label>Color:</label>
+        <div class="color-group">
+          
+        </div>
+
+        <div>
+          <a onclick="AddForm('.color-group','.color-template')" class="btn btn-primary form-control">Add Color</a>
+        </div>
+
+        <label>Modell:</label>
+        <div class="modell-group">
+          
+        </div>
+
+        <div>
+          <a onclick="AddForm('.modell-group','.modell-template')" class="btn btn-primary form-control">Add Modell</a>
         </div>
 
         <template class="description-template">
           <div class="input-group">
             <input id="description" type="text" class="form-control" placeholder="Text here.">
-            <a onclick="DeleteDescription()" class="btn btn-outline-secondary">Delete</a>
+            <a onclick="DeleteForm('.description-group','.description-template')" class="btn btn-outline-secondary">Delete</a>
           </div>
         </template>
+
+        <template class="category-template">
+          <div class="input-group">
+            <input id="description" type="text" class="form-control" placeholder="Text here.">
+            <a onclick="DeleteForm('.category-group','.category-template')" class="btn btn-outline-secondary">Delete</a>
+          </div>
+        </template>
+
+        <template class="color-template">
+          <div class="input-group">
+            <input id="description" type="text" class="form-control" placeholder="Text here.">
+            <a onclick="DeleteForm('.color-group','.color-template')" class="btn btn-outline-secondary">Delete</a>
+          </div>
+        </template>
+
+        <template class="modell-template">
+          <div class="input-group">
+            <input id="description" type="text" class="form-control" placeholder="Text here.">
+            <a onclick="DeleteForm('.modell-group','.modell-template')" class="btn btn-outline-secondary">Delete</a>
+          </div>
+        </template>
+        
+        <div>
+          <a class="mt-3 btn bg-success form-control">Submit</a>
+
+        </div>
       </div>
     </div>
 

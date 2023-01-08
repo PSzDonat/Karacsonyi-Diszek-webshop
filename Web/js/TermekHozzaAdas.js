@@ -7,36 +7,36 @@ async function fetchData(link = url + "Datas") {
   return temp;
 }
 //#region Description
-function DeleteUpdateDescription() {
-  let selectAll = document.querySelector(".description-group");
+function DeleteUpdateForm(div_group) {
+  let selectAll = document.querySelector(div_group);
   let divs = selectAll.querySelectorAll(".input-group");
   if (divs.length >= 2) {
     divs[divs.length - 2].querySelector(".btn").remove();
   }
 }
-function AddUpdateDescription() {
-  let selectAll = document.querySelector(".description-group");
+function AddUpdateForm(div_group,template) {
+  let selectAll = document.querySelector(div_group);
   let divs = selectAll.querySelectorAll(".input-group");
-  let template = document.querySelector(".description-template");
+  let templa = document.querySelector(template);
   let lastDiv = divs[divs.length - 1];
-  const firstClone = template.content.cloneNode(true);
+  const firstClone = templa.content.cloneNode(true);
   let button = firstClone.querySelector(".btn");
   if (divs.length != 0) {
     lastDiv.append(button);
   }
 }
-function AddDescription() {
-  let descG = document.querySelector(".description-group");
-  let template = document.querySelector(".description-template");
-  const firstClone = template.content.cloneNode(true);
+function AddForm(div_group,template) {
+  let descG = document.querySelector(div_group);
+  let templa = document.querySelector(template);
+  const firstClone = templa.content.cloneNode(true);
   descG.appendChild(firstClone);
-  DeleteUpdateDescription();
+  DeleteUpdateForm(div_group);
 }
-function DeleteDescription() {
-  let descG = document.querySelector(".description-group");
+function DeleteForm(div_group,template) {
+  let descG = document.querySelector(div_group);
   let divs = descG.querySelectorAll(".input-group");
   divs[divs.length - 1].remove();
-  AddUpdateDescription();
+  AddUpdateForm(div_group,template);
 }
 //#endregion
 async function Main() {
