@@ -32,16 +32,40 @@
           </li>
         </ul>
       </div>
-      <a id="kosar-icon"><i class="icofont-cart"></i></a>
-      <a id="kosar-icon"><i class="icofont-heart"></i></a>
-      <a id="felhasznalo-icon"><i class="icofont-user-alt-7"></i></a>
+      <div class="btn-group">
+        <a id="kosar-kedvelt-icon" type="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="icofont-cart"></i></a>
+        <ul class="dropdown-menu dropdown-menu-end">
+          <li><a class="dropdown-item" href="#">Kosár megtekintése</a></li>
+          <li><a class="dropdown-item" href="#">Fizetés</a></li>
+        </ul>
+      </div>
+
+      <div class="btn-group">
+        <a id="kosar-kedvelt-icon" type="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="icofont-heart"></i></a>
+        <ul class="dropdown-menu dropdown-menu-end">
+          <li><a class="dropdown-item" href="#">Profil</a></li>
+          <li><hr class="dropdown-divider"></li>
+          <li><a class="dropdown-item" href="#">Regisztráció</a></li>
+          <li><a class="dropdown-item" href="#">Bejelentkezés</a></li>
+        </ul>
+      </div>
+
+      <div class="btn-group">
+        <a id="felhasznalo-icon" type="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="icofont-user-alt-7"></i></a>
+        <ul class="dropdown-menu dropdown-menu-end">
+          <li><a class="dropdown-item bejelentkezve" href="#">Profil</a></li>
+          <li><hr class="dropdown-divider bejelentkezve"></li>
+          <li><a class="dropdown-item" href="#">Regisztráció</a></li>
+          <li><a class="dropdown-item" href="#">Bejelentkezés</a></li>
+        </ul>
+      </div>
         
     </div>
   </nav>
-  <nav id="nav-buttom" class="navbar sticky-top">
+  <nav id="nav-buttom" class="navbar sticky-top shadow-lg ">
     <div class="d-flex w-100 align-items-center">
       <div class="dropdown" id="kategoriak-btn">
-        <button  class="btn btn-light rounded-3 d-flex" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <button id="btn-kategoria" class="btn rounded-3 d-flex nav-button-elem-color" type="button" data-bs-toggle="dropdown" aria-expanded="false">
           <span id="kategoriak-icon" class="navbar-toggler-icon"></span>
           Kategóriák
         </button>
@@ -52,7 +76,7 @@
         </ul>
       </div>
       <form class="d-flex w-100" role="search">
-        <input class="form-control" id="nav-search" type="search" placeholder="Search" aria-label="Search">
+        <input class="form-control nav-button-elem-color" id="nav-search" type="search" placeholder="Keresés" aria-label="Search">
         <button class="btn btn-outline-success" id="nav-search-button" type="submit"><ion-icon id="search-icon" name="search-outline"></ion-icon></button>
       </form>
     </div>

@@ -9,12 +9,33 @@
 #kategoriak-icon {
   margin-right: 0.5rem;
 }
+.nav-button-elem-color{
+  background-color: #faf7f2;
+}
+#btn-kategoria:hover{
+  background-color: #d5ad56;
+}
+#btn-kategoria:visited{
+  background-color: #d5ad56;
+}
+#dropdown-item:hover{
+  background-color: #d5ad56;
+}
 #nav-top {
   background-color: #d5ad56;
+  z-index: 2;
 }
 #nav-buttom {
   background-color: #f7e19e;
   margin-bottom: 3rem;
+  z-index: 1;
+}
+nav a{
+  text-decoration: none;
+  margin: 0.3rem;
+}
+body{
+  z-index: 0;
 }
 #search-icon {
   font-size: 22px;
@@ -22,13 +43,14 @@
   margin-top: 5px;
   color: rgb(0, 114, 0);
 }
-#kosar-icon {
+#kosar-kedvelt-icon {
   font-size: 30px;
-  margin-right: 0.5rem;
+  color: black;
 }
 #felhasznalo-icon {
   font-size: 25px;
   margin-right: 1rem;
+  color: black;
 }
 #nav-search {
   border-radius: 20px 0px 0px 20px;
@@ -37,4 +59,7 @@
   background-color: #ffb84e;
   border-radius: 0px 20px 20px 0px;
   margin-right: 1rem;
+}
+.dropdown-menu{
+  background-color: #f7e19e;
 }
