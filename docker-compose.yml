@@ -10,5 +10,5 @@ services:
     ports:
       - "80:80"
     volumes:
-      - ./Web:/usr/share/nginx/html/Web
+      - ./Web:/usr/share/nginx
       - ./conf.d:/etc/nginx/conf.d

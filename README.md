@@ -3,7 +3,7 @@
 1. `docker build -t  rcsnjszg/json-server .\JsonServer`
 2. `docker-compose up -d`
 
-Open `localhost:80` and navigate to: `Web/html`
+Open `localhost:80`
 
 > :warning: **Ha windows -t használsz akkor lehet hogy pár funkció nem fog müködni !** (Kérem linux on futtasa a project et.)
 
