@@ -73,6 +73,3 @@ body{
 .active{
   text-shadow: 3px 3px 3px rgba(75, 75, 75, 0.479);
 }
-.nav-item{
-  vertical-align: baseline;
-}
