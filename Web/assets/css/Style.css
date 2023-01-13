@@ -10,7 +10,7 @@
   margin-right: 0.5rem;
 }
 .nav-button-elem-color{
-  background-color: #faf7f2;
+  background-color: #ffffff;
 }
 #btn-kategoria:hover{
   background-color: #d5ad56;
@@ -69,4 +69,10 @@ body{
 }
 .dropdown-menu{
   background-color: #f7e19e;
+}
+.active{
+  text-shadow: 3px 3px 3px rgba(75, 75, 75, 0.479);
+}
+.nav-item{
+  vertical-align: baseline;
 }

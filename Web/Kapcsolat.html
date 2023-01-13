@@ -5,29 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="assets/css/Style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/icofont/icofont.min.css">
+    <link rel="stylesheet" href="assets/css/Style.css">
   </head>
   <body>
     <nav id="nav-top" class="navbar navbar-expand-md">
       <div class="container-fluid">
-        <a class="navbar-brand" href="Fooldal.html"
-          ><img class="logo" src="assets/Img/logo.png" alt="LOGO"
-        /></a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
+        <a class="navbar-brand" href="Fooldal.html"><img class="logo" src="assets/Img/logo.png" alt="LOGO"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -39,50 +25,75 @@
               <a class="nav-link" href="Shop.html">WebShop</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="Info.html"
-                >Amit tudni kell rólunk</a
-              >
+              <a class="nav-link" href="Info.html">Amit tudni kell rólunk</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="Kapcsolat.html">Kapcsolatok</a>
+              <a class="nav-link active" href="Kapcsolat.html">Kapcsolatok</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="TermekHozzaAdas.html">Termék hozzáadása</a>
             </li>
           </ul>
         </div>
+        <div class="btn-group">
+          <a id="kosar-kedvelt-icon" type="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="icofont-cart"></i></a>
+          <ul class="dropdown-menu dropdown-menu-end">
+            <li><a class="dropdown-item" href="#">Kosár megtekintése</a></li>
+            <li><a class="dropdown-item" href="#">Fizetés</a></li>
+          </ul>
+        </div>
+  
+        <div class="btn-group ">
+          <a id="kosar-kedvelt-icon" type="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="icofont-heart"></i></a>
+          <ul class="dropdown-menu dropdown-menu-end">
+            <li><a class="dropdown-item" href="#">Kedvelt termékek</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Elem 1</a></li>
+          </ul>
+        </div>
+  
+        <div class="btn-group">
+          <a id="felhasznalo-icon" type="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="icofont-user-alt-7"></i></a>
+          <ul class="dropdown-menu dropdown-menu-end">
+            <li><a class="dropdown-item bejelentkezve" href="#">Profil</a></li>
+            <li><hr class="dropdown-divider bejelentkezve"></li>
+            <li><a class="dropdown-item" href="#">Regisztráció</a></li>
+            <li><a class="dropdown-item" href="#">Bejelentkezés</a></li>
+          </ul>
+        </div>
+  
+  
+        <!-- <div class="btn-group">
+          <a id="felhasznalo-icon" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasResponsive" aria-controls="offcanvasResponsive"><i class="icofont-user-alt-7"></i></a>
+  
+          <div class="offcanvas-md offcanvas-end" tabindex="-1" id="offcanvasResponsive" aria-labelledby="offcanvasResponsiveLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasResponsiveLabel">Responsive offcanvas</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#offcanvasResponsive" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <p class="mb-0">This is content within an <code>.offcanvas-lg</code>.</p>
+            </div>
+          </div>
+        </div> -->
+  
+        
       </div>
     </nav>
-    <nav id="nav-buttom" class="navbar sticky-top">
+    <nav id="nav-buttom" class="navbar sticky-top shadow-lg ">
       <div class="d-flex w-100 align-items-center">
         <div class="dropdown" id="kategoriak-btn">
-          <button
-            class="btn btn-light rounded-3 d-flex"
-            type="button"
-            data-bs-toggle="dropdown"
-            aria-expanded="false"
-          >
+          <button id="btn-kategoria" class="btn rounded-3 d-flex nav-button-elem-color" type="button" data-bs-toggle="dropdown" aria-expanded="false">
             <span id="kategoriak-icon" class="navbar-toggler-icon"></span>
             Kategóriák
           </button>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <li><a class="dropdown-item" href="#">Kategória 1</a></li>
           </ul>
         </div>
         <form class="d-flex w-100" role="search">
-          <input
-            class="form-control"
-            id="nav-search"
-            type="search"
-            placeholder="Search"
-            aria-label="Search"
-          />
-          <button
-            class="btn btn-outline-success"
-            id="nav-search-button"
-            type="submit"
-          >
-            <ion-icon id="search-icon" name="search-outline"></ion-icon>
-          </button>
+          <input class="form-control nav-button-elem-color" id="nav-search" type="search" placeholder="Keresés" aria-label="Search">
+          <button class="btn btn-outline-success" id="nav-search-button" type="submit"><ion-icon id="search-icon" name="search-outline"></ion-icon></button>
         </form>
       </div>
     </nav>
